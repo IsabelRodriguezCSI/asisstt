@@ -9,7 +9,7 @@
       var hora = now.getHours().toString().padStart(2, '0');
       var minutos = now.getMinutes().toString().padStart(2, '0');
       var horaActual = hora + ":" + minutos;
-      var mensaje = "Buen día, lic Isabel. Registró mi hora de llegada a las " + horaActual + " y las actividades con las que comenzaré serán las siguientes:";
+      var mensaje = "Buen día, lic Isabel. Registro mi hora de llegada a las " + horaActual + " y las actividades con las que comenzaré serán las siguientes:";
       var url = "https://wa.me/525548008786?text=" + encodeURIComponent(mensaje);
       window.location.href = url;
     }
